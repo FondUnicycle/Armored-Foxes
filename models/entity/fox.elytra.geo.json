@@ -1,0 +1,55 @@
+//Copyright 2021 FondUnicycle 
+//Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+//http://www.apache.org/licenses/LICENSE-2.0 
+//Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.elytra.fox",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "world",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "root",
+					"parent": "world",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 8, -3]
+				},
+				{
+					"name": "left_wing",
+					"parent": "body",
+					"pivot": [0, 8, -3],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{"origin": [-10, -12, -3], "size": [10, 20, 2], "uv": [22, 0], "mirror": true}
+					]
+				},
+				{
+					"name": "right_wing",
+					"parent": "body",
+					"pivot": [0, 8, -3],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{"origin": [0, -12, -3], "size": [10, 20, 2], "uv": [22, 0]}
+					]
+				}
+			]
+		}
+	]
+}
