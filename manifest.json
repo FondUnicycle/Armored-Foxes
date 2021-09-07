@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Armored Foxes V. 4",
+		"description": "Renders the armor on foxes.\nNow with the 1.17 spyglass added!! \n§oMade by §l§9FondUnicycle",
+		"uuid": "ea878fa2-489a-475c-a8f3-bbe1f86651fc",
+		"version": [
+			1,
+			4,
+			0
+		],
+		"min_engine_version": [
+			1,
+			17,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "35b945be-2e04-45cd-bdae-ac2ff89d2b5e",
+			"version": [
+				1,
+				4,
+				0
+			]
+		}
+	]
+}
