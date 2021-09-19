@@ -13,7 +13,7 @@
         "rightitem": {
           "rotation": [ -90, 0, -90 ],
           "position": [1.5, -5, -8],
-		  "scale": 0.8
+	  "scale": 0.8
         }
       }
     }
